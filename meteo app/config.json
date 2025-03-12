@@ -1,8 +1,0 @@
-{
-    "files":{
-        "/assets/fr.json": "./fr.json",
-        "/src/outils.py": "./outils.py",
-        "/src/keys.py": "./keys.py"
-    },
-    "packages":["requests"]
-}
