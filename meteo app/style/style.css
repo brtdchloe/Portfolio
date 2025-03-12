@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+#ville{
+    text-align: left;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 75px;
+    margin-right: auto;
+    color: white;
+}
+
+#degre{
+    margin-top: 175px;
+    position: absolute;
+    margin-left: 15px;
+    color: white;
+}
+
+#meteo{
+    margin-top: 200px;
+    position: absolute;
+    margin-left: 15px;
+    color: white;
+}
+
+#icon_previsions{
+    margin-top: 125px;
+    position: absolute;
+    margin-left: 185px;
+    width: 100px;
+    height: 100px;
+}
+
+#minmax{
+    margin-top: 225px;
+    position: absolute;
+    margin-left: 15px;
+    color: white;
+}
+
+#localisation{
+    float: left;
+    position: absolute;
+    margin-top: 50px;
+    width: 75px; /* largeur en pixel de ta photo */
+    height: 75px; /* hauteur en pixel de ta photo */
+    margin-right:10px; /* marge en pixel à droite de la photo */
+}
+
+*{
+    user-select: none;
+}
+
+.card{
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("/assets/fond\ degrade.jpg");
+}
+
+.card-title{
+    font-family: "IBM Plex Serif", serif;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    text-shadow: 5px 5px 8px grey;
+}
+
+#ind{
+    font-size: 8.5px;
+}
+
+#image_air{
+    width: 210px;
+    height: 20px;
+}
+
+#animation{
+    position: relative;
+}
